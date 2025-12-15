@@ -6,7 +6,7 @@ comment: false
 ### 快速开始
 <br>
 <NCard title="🤔 了解 MCStart" link="../guide/MCStart">
-MCStart 是什么东西？MCStart 是怎么用的？MCStart是做什么用的？
+MCStart是做什么用的？ MCStart 是怎么用的？
 </NCard>
 
 ### 安装
@@ -15,10 +15,10 @@ MCStart 是什么东西？MCStart 是怎么用的？MCStart是做什么用的？
 MCStart 安装方法非常地简单，就像你平时安装软件一样~
 </NCard>
 
-### 配置
+### 使用
 <br>
-<NCard title="📑 配置 MCStart" link="../config/basic">
-NapCat 的配置较为复杂，阅读可以帮助你更好地配置！
+<NCard title="📑 使用 MCStart" link="../config/basic">
+NapCat 的使用较为复杂，阅读可以让你使用起来更加得心应手！
 </NCard>
 
 ---

@@ -18,6 +18,6 @@ MaiCore 是目前及其先进的<mark>拟人思考AI智能体。</mark>
 ## [墨狐文档中心](https://docs.mofox-sama.com)
 
 ## MCStart 在向你招手哦~
-现在你已经理解了 MCStart和MaiCore，随我们一起前往目录导航查看教程，进行安装...配置...
+现在你已经理解了 MCStart和MaiCore，随我们一起前往目录导航查看教程，进行使用...配置...
 
 [目录导航](./start-install.md)

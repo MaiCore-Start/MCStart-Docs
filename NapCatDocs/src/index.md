@@ -1,7 +1,7 @@
 ---
 layout: home
 
-title: MMCStart
+title: MCStart
 titleTemplate: 模块化的基于 Python 的类人思考智能体的管理器
 
 hero:
@@ -15,7 +15,7 @@ hero:
       text: GitHub
       link: https://github.com/MaiCore-Start/MaiCore-Start
   image:
-    src: /assets/newnewlogo.png
+    src: /assets/logos/icon_light.png
     alt: Logo
 
 features:

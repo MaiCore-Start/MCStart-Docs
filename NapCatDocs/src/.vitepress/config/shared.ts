@@ -14,7 +14,7 @@ import timeline from 'vitepress-markdown-timeline'
 import { groupIconMdPlugin, groupIconVitePlugin } from 'vitepress-plugin-group-icons'
 
 export const shared = defineConfig({
-  title: 'NapCatQQ',
+  title: 'MCStart',
   lastUpdated: true,
   cleanUrls: true,
   metaChunk: true,
@@ -25,7 +25,7 @@ export const shared = defineConfig({
     plugins: [
       GitChangelog({
         maxGitLogCount: 2000,
-        repoURL: () => 'https://github.com/NapNeko/NapCatDocs',
+        repoURL: () => 'https://github.com/MaiCore-Start/MCStart-Docs',
       }),
       GitChangelogMarkdownSection({
         exclude: (id) => id.endsWith('index.md'),
@@ -82,17 +82,17 @@ export const shared = defineConfig({
         rel: 'icon',
         type: 'image/png',
         sizes: '32x32',
-        href: '/assets/newnewlogo.png'
+        href: '/assets/logos/icon_light.png'
       }
     ],
-    ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/assets/newnewlogo.png' }],
-    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/assets/newnewlogo.png' }],
-    ['link', { rel: 'mask-icon', href: '/assets/newnewlogo.png', color: '#5bbad5' }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/assets/logos/icon_light.png' }],
+    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/assets/logos/icon_light.png' }],
+    ['link', { rel: 'mask-icon', href: '/assets/logos/icon_light.png', color: '#5bbad5' }],
     ['meta', { name: 'theme-color', content: '#5f67ee' }],
   ],
 
   themeConfig: {
-    logo: { src: '/assets/newnewlogo.png', width: 24, height: 24 },
+    logo: { src: '/assets/logos/icon_light.png', width: 24, height: 24 },
     //开启本地搜索
     search: {
       provider: 'local',

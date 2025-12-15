@@ -63,26 +63,8 @@ function sidebarGuide(): DefaultTheme.Sidebar {
       collapsed: true,
       items: [
         { text: '目录导航', link: '/start-install' },
-        { text: '什么是 NapCatQQ', link: '/napcat' },
-        { text: '启动方式', link: '/install' },
-        {
-          text: '安装方式',
-          base: '/guide/boot',
-          collapsed: false,
-          items: [
-            { text: 'Shell', link: '/Shell' },
-            { text: 'Framework', link: '/Framework' }
-          ]
-        }
-      ]
-    },
-    {
-      text: '配置',
-      base: '/config',
-      collapsed: true,
-      items: [
-        { text: '基础配置', link: '/basic' },
-        { text: '高级配置', link: '/advanced' }
+        { text: '什么是 MCStart', link: '/MCStart' },
+        { text: '安装与启动', link: '/install' },
       ]
     },
     {
@@ -90,8 +72,8 @@ function sidebarGuide(): DefaultTheme.Sidebar {
       base: '/use',
       collapsed: true,
       items: [
-        { text: '接入框架', link: '/integration' },
-        { text: '社区资源', link: '/community' }
+        { text: '实例部署', link: '/integration' },
+        { text: '实例启动', link: '/community' }
       ]
     },
     {
