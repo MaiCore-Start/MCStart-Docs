@@ -6,7 +6,7 @@ comment: false
 ### 快速开始
 <br>
 <NCard title="🤔 了解 MCStart" link="../guide/MCStart">
-MCStart 是什么东西？MCStart 是怎么用的？
+MCStart 是什么东西？MCStart 是怎么用的？MCStart是做什么用的？
 </NCard>
 
 ### 安装
