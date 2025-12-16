@@ -5,7 +5,7 @@ title: MCStart
 titleTemplate: 模块化的基于 Python 的类人思考智能体的管理器
 
 hero:
-  name: MMCStart
+  name: MCStart
   text: 模块化的基于 Python 的实现
   actions:
     - theme: brand
