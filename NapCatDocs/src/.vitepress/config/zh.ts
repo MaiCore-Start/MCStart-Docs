@@ -72,8 +72,9 @@ function sidebarGuide(): DefaultTheme.Sidebar {
       base: '/use',
       collapsed: true,
       items: [
-        { text: '实例部署', link: '/integration' },
-        { text: '实例启动', link: '/community' }
+        { text: '新手使用指南', link: '/use' },
+        { text: '实例部署', link: '/deployment' },
+        { text: '实例启动', link: '/startup' }
       ]
     },
     {

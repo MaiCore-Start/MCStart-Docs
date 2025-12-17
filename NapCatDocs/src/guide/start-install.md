@@ -17,7 +17,7 @@ MCStart 安装方法非常地简单，就像你平时安装软件一样~
 
 ### 使用
 <br>
-<NCard title="📑 使用 MCStart" link="../config/basic">
+<NCard title="📑 使用 MCStart" link="../use/use">
 MCStart 的使用较为复杂，阅读可以让你使用起来更加得心应手！
 </NCard>
 
