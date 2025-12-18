@@ -443,4 +443,15 @@ def check_napcat_connection(self, napcat_path: str) -> bool:
 如果您实现了更好的想法或功能，可以在 GitHub 上开启 Pull Request
 </NCard>
 
+## 有关实例的FAQ
+
+<NCard title="❓ 麦麦的常见问题（FAQ）" link="https://docs.mai-mai.org/manual/faq/">
+解决您在使用 MaiBot 时可能遇见的小问题
+</NCard>
+
+
+<NCard title="🦊 墨狐常见问题与帮助" link="https://docs.mofox-sama.com/docs/guides/model_config_faq.html">
+解决您在使用 MoFox_bot 时可能遇见的小问题
+</NCard>
+
 ## TOP
