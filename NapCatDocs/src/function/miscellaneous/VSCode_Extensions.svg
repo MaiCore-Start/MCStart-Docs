@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="62.42" height="62.249" viewBox="0 0 62.42 62.249">
+  <g id="组_3" data-name="组 3" transform="translate(-598.5 -354.251)">
+    <g id="组_2" data-name="组 2" opacity="0.64">
+      <rect id="矩形_1" data-name="矩形 1" width="20" height="20" transform="translate(606 389)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="15"/>
+      <rect id="矩形_2" data-name="矩形 2" width="20" height="20" transform="translate(626 389)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="15"/>
+      <rect id="矩形_3" data-name="矩形 3" width="20" height="20" transform="translate(606 368)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="15"/>
+      <rect id="矩形_4" data-name="矩形 4" width="16" height="16" transform="translate(639 364.858) rotate(45)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="15"/>
+    </g>
+    <g id="组_1" data-name="组 1">
+      <rect id="矩形_5" data-name="矩形 5" width="20" height="20" transform="translate(606 389)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="3"/>
+      <rect id="矩形_6" data-name="矩形 6" width="20" height="20" transform="translate(626 389)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="3"/>
+      <rect id="矩形_7" data-name="矩形 7" width="20" height="20" transform="translate(606 368)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="3"/>
+      <rect id="矩形_8" data-name="矩形 8" width="16" height="16" transform="translate(639 364.858) rotate(45)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

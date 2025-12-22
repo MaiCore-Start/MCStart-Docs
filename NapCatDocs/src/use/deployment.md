@@ -680,7 +680,7 @@ def needs_mongodb(version: str) -> bool:
 
 ### 配置文件生成系统
 
-部署系统会根据 Bot 类型和版本自动生成相应的配置文件：
+部署系统会根据 Bot 类型和版本自动移动相应的配置文件，并在部署完成时询问你是否需要打开配置文件，默认选择[VSCode](../function/miscellaneous/components)，未安装则选择记事本打开：
 
 ```python
 def setup_config_files(self, deploy_config: Dict, bot_path: str,
@@ -817,7 +817,7 @@ MoFox-Bot（墨狐）配置文件 (bot_config.toml) 究极详细指南
 AI 模型配置文件（MaiBot 0.10.0+）仅展示部分：
 
 ::: tip 重要提醒
-**<mark>在配置AI模型文件前，你需要获取API秘钥，我们默认使用硅基流动的服务，你可以查看[这里](./use#第零步-最最最最重要的一点-获取你的api秘钥)了解如何获取API秘钥</mark>**
+**<mark>在配置AI模型文件前，你需要获取API秘钥，我们默认使用硅基流动的服务，[你可以查看这里了解如何获取API秘钥](./use#第零步-最最最最重要的一点-获取你的api秘钥)</mark>**
 :::
 
 ```toml

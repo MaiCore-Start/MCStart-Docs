@@ -21,7 +21,7 @@
 ```
 - <mark>如果你选择的是 MaiBot （麦麦）</mark>，那么可供你下载的组件有：MaiBot本体（你本体都不下的话，那你部署个啥呢）、适配器（MaiBot-Napcat-Adapter）（虽然目前MaiBot的适配器还是外置的，但据说很快就要合并到主程序里了）、NapCat、MongoDB（前朝余孽）、WebUI（MaiBot-Dashboard，MaiBot控制面板）。
 - <mark>如果你选择 MoFox_bot （墨狐）</mark>，那么可供你下载的组件有：MoFox_bot本体、适配器（MoFox_bot-Napcat-Adapter）（墨狐的适配器早就内置了，甭下载，浪费时间）、NapCat、、~~WebUI（等着）~~
-- 更多外置组件去看[组件下载](./miscellaneous/components)
+- 更多外置组件去看[组件下载](./miscellaneous/components)，推荐在部署前安装VSCode。
 
 ::: tip
 下载主程序、NapCat、WebUI的时候，会从通过 GitHub API 获取版本列表，如果失败的话，可以尝试<mark>关掉代理软件再手动重试</mark>，获取到版本列表后再打开。如果还是失败，那多半是触碰到速率上线了，等几秒再试。

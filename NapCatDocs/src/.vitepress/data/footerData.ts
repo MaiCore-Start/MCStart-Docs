@@ -10,6 +10,7 @@ export const Footer_Data: FooterData = {
         { name: '麦麦（MaiCore）文档中心', link: 'https://docs.mai-mai.org' },
         { name: '墨狐（MoFox_bot）文档中心', link: 'https://docs.mofox-sama.com/' },
         { name: '硅基流动（SiliconFlow）', link: 'https://cloud.siliconflow.cn/i/JSydmfX7' },
+        { name: 'NapCat文档中心', link: 'https://napneko.github.io/' }
       ],
     },
     {

@@ -80,5 +80,5 @@
 ## 打开实例配置文件
 选项`[G] 📝 打开实例配置文件`
 
-在文本编辑器中打开目标实例的配置文件，如`.env`、`bot_config.toml`、`model_config.toml`等，方便修改实例配置。
+在文本编辑器中打开目标实例的配置文件，如`.env`、`bot_config.toml`、`model_config.toml`等，方便修改实例配置，默认使用[VSCode](../miscellaneous/components)打开，未安装则选择Notepad打开。
 

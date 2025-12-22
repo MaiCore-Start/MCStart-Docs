@@ -9,7 +9,7 @@
 你可认为它是驱动Bot运行的燃料，没有它，你的Bot就无法运行！
 我们默认使用硅基流动的API秘钥，使用硅基流动的服务，
 > API ，你可以理解为这是一个应用去请求另一个应用的某个功能的通道，在这里我们就是通过 API 去请求硅基流动的 AI 模型的。 
-1. 点击[这里](https://cloud.siliconflow.cn/i/JSydmfX7)注册硅基流动的账号。
+1. [点击这里注册硅基流动的账号。](https://cloud.siliconflow.cn/i/JSydmfX7)
 2. 点击侧边栏的**实名认证**选项卡完成实名认证。
 3. 点击侧边栏的**API秘钥**选项卡，点击 **🔑新建API秘钥** 申请一个你的API秘钥，完成后你会获得一串`sk-`开头的字母，那个就是API秘钥，稍后我们在配置Bot时会用到。
 
@@ -84,7 +84,7 @@
    - 如果暂时没有，可以直接回车跳过
 
 8. **配置您的bot的人格**
-   - 部署完成后，我们会询问您是否在文本编辑器中打开主要配置文件，<mark>我还是比较推荐你打开的，免得你找不着</mark>，如果您部署的是麦麦bot并且部署了控制面板（WebUI），那么您可以在控制面板中对麦麦bot的人格进行编辑。
+   - 部署完成后，我们会询问您是否在文本编辑器中打开主要配置文件，默认使用 VSCode 如果你没安装，则会在记事本中打开，建议在部署前先[在组件下载中安装 VSCode ](../../function/miscellaneous/components)，<mark>我还是比较推荐你打开的，免得你找不着</mark>，如果您部署的是麦麦bot并且部署了控制面板（WebUI），那么您可以在控制面板中对麦麦bot的人格进行编辑。
    - [MaiBot 配置与安装简介](https://docs.mai-mai.org/manual/configuration/)
    - [MoFox-Bot 配置文件 (bot_config.toml) 究极详细指南](https://docs.mofox-sama.com/docs/guides/bot_config_guide.html)
    - 这时我们就要用到先前获取的 API 秘钥了，在`model_config.toml`中，你可以找到这一栏：
