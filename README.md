@@ -2,7 +2,7 @@
 
 
 本项目是 **[MaiCore-Start](https://github.com/MaiCore-Start/MaiCore-Start)** 的文档项目, 用于文档的更新, 部署等.
-# Logo 历史
+# 贡献历史
 由 [xiaoCZX](https://github.com/xiaoCZX) 编写
 # Contribution
 
