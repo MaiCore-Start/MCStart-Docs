@@ -12,6 +12,7 @@ import taskLists from 'markdown-it-task-lists'
 import { defineConfig } from 'vitepress'
 import timeline from 'vitepress-markdown-timeline'
 import { groupIconMdPlugin, groupIconVitePlugin } from 'vitepress-plugin-group-icons'
+import container from 'markdown-it-container'
 
 export const shared = defineConfig({
   title: 'MCStart',
@@ -80,6 +81,67 @@ export const shared = defineConfig({
       md.use(InlineLinkPreviewElementTransform)
       // 代码组图标
       md.use(groupIconMdPlugin)
+      
+      // 注册自定义容器
+      md.use(container, 'danger', {
+        render(tokens: any[], idx: number) {
+          const token = tokens[idx]
+          if (token.nesting === 1) {
+            // 获取标题信息
+            const info = token.info.trim()
+            const spaceIndex = info.indexOf(' ')
+            const title = spaceIndex > 0 ? info.slice(spaceIndex + 1) : ''
+            return `<div class="custom-block danger">${title ? `<p class="custom-block-title">${title}</p>` : ''}\n`
+          } else {
+            return '</div>\n'
+          }
+        }
+      })
+      
+      md.use(container, 'note', {
+        render(tokens: any[], idx: number) {
+          const token = tokens[idx]
+          if (token.nesting === 1) {
+            // 获取标题信息
+            const info = token.info.trim()
+            const spaceIndex = info.indexOf(' ')
+            const title = spaceIndex > 0 ? info.slice(spaceIndex + 1) : ''
+            return `<div class="custom-block note">${title ? `<p class="custom-block-title">${title}</p>` : ''}\n`
+          } else {
+            return '</div>\n'
+          }
+        }
+      })
+      
+      md.use(container, 'important', {
+        render(tokens: any[], idx: number) {
+          const token = tokens[idx]
+          if (token.nesting === 1) {
+            // 获取标题信息
+            const info = token.info.trim()
+            const spaceIndex = info.indexOf(' ')
+            const title = spaceIndex > 0 ? info.slice(spaceIndex + 1) : ''
+            return `<div class="custom-block important">${title ? `<p class="custom-block-title">${title}</p>` : ''}\n`
+          } else {
+            return '</div>\n'
+          }
+        }
+      })
+      
+      md.use(container, 'caution', {
+        render(tokens: any[], idx: number) {
+          const token = tokens[idx]
+          if (token.nesting === 1) {
+            // 获取标题信息
+            const info = token.info.trim()
+            const spaceIndex = info.indexOf(' ')
+            const title = spaceIndex > 0 ? info.slice(spaceIndex + 1) : ''
+            return `<div class="custom-block caution">${title ? `<p class="custom-block-title">${title}</p>` : ''}\n`
+          } else {
+            return '</div>\n'
+          }
+        }
+      })
     },
     codeTransformers: [transformerTwoslash() as any],
     // Explicitly load these languages for types hightlighting
