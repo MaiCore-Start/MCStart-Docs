@@ -43,6 +43,10 @@ export const zh = defineConfig({
 function nav(): DefaultTheme.NavItem[] {
   return [
     {
+      text: "首页",
+      link: '/',
+    },
+    {
       text: '快速开始',
       link: '/guide/start-install',
       activeMatch: '/guide/'
