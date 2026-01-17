@@ -116,7 +116,6 @@ function sidebarGuide(): DefaultTheme.Sidebar {
       collapsed: false,
       items: [
         { text: '联系', link: '/about' },
-        { text: 'README', link: '/README.md' }
       ]
     },
   ]
