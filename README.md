@@ -8,7 +8,6 @@
 [![Node.js](https://img.shields.io/badge/Node.js-v18.18.0+-339933?style=flat&logo=node.js&logoColor=white)](https://nodejs.org/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)](LICENSE)
 
-[English](README_EN.md) | 简体中文
 
 </div>
 
