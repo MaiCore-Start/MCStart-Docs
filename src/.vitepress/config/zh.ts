@@ -52,11 +52,6 @@ function nav(): DefaultTheme.NavItem[] {
       link: '/other/about',
       activeMatch: '/other/about'
     },
-    {
-      text: '容器测试',
-      link: '/test-containers',
-      activeMatch: '/test-containers'
-    }
   ]
 }
 
